@@ -21,9 +21,9 @@ function filter(arr, fn) {
   return newArray;
 }
 
-console.log(filter(myNames, function(name) {
-  return name[0] === 'R';
-}));
+// console.log(filter(myNames, function(name) {
+//   return name[0] === 'R';
+// }));
 
-// Bonus Credit
-console.log(filter(myNames, (name) => name[0] === 'R'));
+// // Bonus Credit
+// console.log(filter(myNames, (name) => name[0] === 'R'));
